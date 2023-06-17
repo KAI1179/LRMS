@@ -44,7 +44,7 @@ parser.add_argument("--classes_num", type=int, default=100)
 parser.add_argument("--batch_size", type=int, default=64)
 parser.add_argument("--cls", type=bool, default=True)
 parser.add_argument('--dataset', default='CUB200', type=str, help='the name for dataset cifar100 | tinyimagenet | CUB200 | STANFORD120 | MIT67')
-parser.add_argument('--dataroot', default='./dataset/CUB_200_2011/', type=str, help='data directory') # '.../CUB_200_2011/' | '.../StandFordDogs' | '/data2/xukai_data/dataset/'(MIT67)
+parser.add_argument('--dataroot', default='./dataset/CUB_200_2011/', type=str, help='data directory') # '.../CUB_200_2011/' | '.../StandFordDogs' | './dataset/'(MIT67)
 
 parser.add_argument("--aug_nums", type=int, default=2)  #
 
